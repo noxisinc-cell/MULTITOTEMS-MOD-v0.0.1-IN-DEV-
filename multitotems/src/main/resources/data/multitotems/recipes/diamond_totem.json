@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    "DTD",
+    "DDD"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "T": {
+      "item": "multitotems:emerald_totem"
+    }
+  },
+  "result": {
+    "item": "multitotems:diamond_totem"
+  }
+}

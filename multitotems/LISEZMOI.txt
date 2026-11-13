@@ -1,0 +1,37 @@
+TOTEMS MULTI-VIES - Mod Forge pour Minecraft 1.20.1
+====================================================
+
+Totems (à tenir en main, comme le totem d'immortalité normal) :
+  - Or        : te sauve 3 fois
+  - Émeraude  : te sauve 5 fois
+  - Diamant   : te sauve 10 fois
+  - Netherite : te sauve 25 fois
+
+Recettes (table de craft) :
+  - Or        : totem d'immortalité au centre + 8 lingots d'or autour
+  - Émeraude  : totem en or au centre + 8 émeraudes autour
+  - Diamant   : totem en émeraude au centre + 8 diamants autour
+  - Netherite : totem en diamant au centre + 4 lingots de netherite (en croix)
+
+Le nombre de vies restantes s'affiche dans l'infobulle de l'objet.
+
+COMMENT OBTENIR LE .JAR
+-----------------------
+Option A - en ligne, sans rien installer (GitHub Actions) :
+  1. Crée un dépôt GitHub et envoie-y tout le contenu de ce dossier.
+  2. Onglet "Actions" > "Build mod" > attends la fin du build.
+  3. Télécharge l'artefact "multitotems-jar" : le .jar est dedans.
+
+Option B - sur ton PC :
+  1. Installe le JDK 17 et Gradle 8.5.
+  2. Dans ce dossier : gradle build
+  3. Le .jar est dans build/libs/multitotems-1.0.0.jar
+
+INSTALLATION
+------------
+Mets le .jar dans le dossier "mods" de Minecraft 1.20.1 avec Forge 47.3.0 (ou plus récent en 1.20.1).
+
+PERSONNALISER
+-------------
+  - Nombre de vies : src/main/java/com/multitotems/MultiTotemMod.java (durability(...))
+  - Recettes : src/main/resources/data/multitotems/recipes/
