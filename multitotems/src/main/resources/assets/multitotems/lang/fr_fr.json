@@ -1,0 +1,8 @@
+{
+  "item.multitotems.gold_totem": "Totem d'immortalité en or",
+  "item.multitotems.emerald_totem": "Totem d'immortalité en émeraude",
+  "item.multitotems.diamond_totem": "Totem d'immortalité en diamant",
+  "item.multitotems.netherite_totem": "Totem d'immortalité en netherite",
+  "itemGroup.multitotems": "Totems Multi-Vies",
+  "tooltip.multitotems.uses": "Vies restantes : %s / %s"
+}

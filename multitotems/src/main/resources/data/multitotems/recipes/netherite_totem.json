@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " N ",
+    "NTN",
+    " N "
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "T": {
+      "item": "multitotems:diamond_totem"
+    }
+  },
+  "result": {
+    "item": "multitotems:netherite_totem"
+  }
+}

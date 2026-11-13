@@ -1,0 +1,8 @@
+{
+  "item.multitotems.gold_totem": "Golden Totem of Undying",
+  "item.multitotems.emerald_totem": "Emerald Totem of Undying",
+  "item.multitotems.diamond_totem": "Diamond Totem of Undying",
+  "item.multitotems.netherite_totem": "Netherite Totem of Undying",
+  "itemGroup.multitotems": "Multi-Life Totems",
+  "tooltip.multitotems.uses": "Lives left: %s / %s"
+}
